@@ -16,7 +16,3 @@ btn.addEventListener('click', function(){
     };
 });
 
-clr.addEventListener('click',function(){
-    let input = document.getElementById('userInput');
-    input.value = ""
-})
