@@ -1,7 +1,7 @@
 let btn = document.getElementById('btn');
 let output = document.getElementById('outputtext');
 let clr = document.getElementById('clr');
-let number = [Math.floor(Math.random() * 100)];
+let number = Math.floor(Math.random() * 100);
 
 
 btn.addEventListener('click', function(){
